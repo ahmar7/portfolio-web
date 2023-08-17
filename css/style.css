@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+* {
+  scroll-behavior: smooth;
+}
+.max-width {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* Hero Section */
+
+.profile-section {
+  min-height: 100vh;
+  background-color: #071a52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dp-img {
+  border-radius: 15px;
+  width: 350px;
+}
+.profile-detail {
+  text-align: center;
+}
+
+.name {
+  margin-top: 20px !important;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 800;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.btns-flex {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btns-flex .btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.white-btn {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.black-btn {
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+.btns-flex .white-btn:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.btns-flex .black-btn:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.description {
+  color: gray;
+}
+/* About Me Section */
+.about-section {
+  margin-top: 50px;
+}
+.shadow-bg {
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flex {
+  display: flex;
+  gap: 40px;
+}
+.left-details {
+  width: 48%;
+}
+.right-details h3,
+.left-details h3 {
+  margin: 0;
+}
+.detail-desc {
+  color: gray;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+.date-head {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.column-tag {
+  font-size: 14px;
+}
+
+.column-tag .date-head {
+  width: 150px;
+  display: inline-block;
+}
+/* Education   Section */
+.education-section {
+  margin-top: 50px;
+}
+.education-section .edu-head {
+  text-align: center;
+}
+
+.individual-education {
+  margin-bottom: 25px;
+  display: flex;
+}
+.individual-education .contrast-detail {
+  min-height: 150px;
+  width: 20%;
+
+  background-color: #071a52;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box w;
+  flex-direction: column;
+}
+
+.contrast-detail h3 {
+  margin-top: 10px !important;
+}
+.all-detail {
+  box-sizing: border-box;
+  padding: 25px;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 80%;
+}
+.all-detail h3 {
+  font-family: "Raleway", sans-serif;
+
+  color: rgb(23, 23, 23);
+  margin: 0;
+}
+.all-detail h4 {
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 20px !important;
+  margin: 0;
+}
+
+.all-detail p {
+  margin: 0;
+  margin-bottom: 5px !important;
+}
+
+.success {
+  color: green;
+}
+/* Skills Section */
+.sep {
+  display: flex;
+  justify-content: space-between;
+}
+.detail-bar {
+  margin-bottom: 30px;
+}
+.detail-bar progress {
+  width: 90%;
+}
+.contact-section {
+  margin-top: 50px;
+}
+.detail-bar .date-head {
+  margin: 0;
+  margin-bottom: 5px !important;
+}
+.width-all {
+  width: 48%;
+}
+.text-center {
+  text-align: center;
+}
+/* Contact Form */
+.fields-container {
+  width: 45%;
+  box-sizing: border-box;
+}
+.fields-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+.red {
+  color: red;
+}
+.fields-container input,
+.fields-container textarea {
+  width: 100%;
+
+  border: 1px solid gray;
+  outline: none;
+
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+.full-w {
+  width: 93%;
+}
+.conact-form {
+  flex-wrap: wrap;
+  row-gap: 30px;
+  padding: 30px;
+  border-radius: 30px;
+  width: 50vw;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.all-radio {
+  display: flex;
+  gap: 5px;
+  padding: 12px 0;
+}
+.all-radio input {
+  width: auto;
+}
+.hidden {
+  display: none;
+}
+.send-btn {
+  text-align: center;
+}
+.send-btn input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #071a52;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 1150px) {
+  .max-width {
+    padding-inline: 20px;
+  }
+  .about-section {
+    padding-inline: 20px;
+  }
+  .individual-education .contrast-detail {
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .individual-education .contrast-detail {
+    padding-inline: 20px;
+    width: 30%;
+  }
+  .all-detail {
+    width: 70%;
+  }
+  .dp-img {
+    width: 80%;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .shadow-bg.max-width.flex {
+    flex-direction: column;
+  }
+  .conact-form,
+  .width-all,
+  .left-details {
+    width: 100%;
+  }
+  .about-section .flex {
+    gap: 0px !important;
+  }
+  .conact-form {
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 600px) {
+  .fields-container {
+    width: 100%;
+  }
+  .individual-education {
+    flex-direction: column;
+  }
+  .all-detail,
+  .individual-education .contrast-detail {
+    box-sizing: border-box;
+    width: 100% !important;
+  }
+}
