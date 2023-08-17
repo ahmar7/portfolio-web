@@ -33,11 +33,7 @@
           <img class="dp-img" src="./img/dp.jpg" alt="" />
           <h1 class="name">John Doe</h1>
           <p class="description">Web Developer, Software Engineer</p>
-          <div class="btns-flex">
-            <a href="./doc/Pratham Resume.docx" class="resume-btn btn white-btn">
-              <i class="fa-solid fa-download"></i> Resume</a
-            >
-            <a href="#contact" class="contact-btn btn black-btn">Contact me</a>
+          <div class="btns-flex" id="heroBtns"> 
           </div>
         </div>
       </section>
@@ -167,7 +163,7 @@
       <!-- Contact Secton -->
       <section class="contact-section max-width" id="contact">
         <h3 class="text-center">Contact us</h3>
-        <form action="" class="conact-form">
+        <form action="" name="myForm" class="conact-form" onsubmit="return validateForm()">
           <div class="fields-container">
             <label for="">Name<span class="red">*</span></label>
             <input type="text" required name="name" />
